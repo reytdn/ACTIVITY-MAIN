@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(241, 237, 237);
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(5, 5, 85);
+}
+
+header h1{
+    color: white;
+}
+
+header p{
+    color: grey;
+}
+
+header a{
+    color: rgb(37, 161, 161);
+}
+
+h2{
+    color: rgb(37, 161, 161);
+}
+
+#home p{
+    color: grey;
+}
+
+#about p{
+    color: rgb(37, 161, 161);;
+}
+
+#packages{
+    background-color: rgb(160, 234, 247);
+}
+
+.Taal{
+    background-color: lightsalmon;
+}
+
+.Taal h3{
+    color: rgb(141, 98, 20);
+}
+
+.Taal p{
+    color: grey;
+}
