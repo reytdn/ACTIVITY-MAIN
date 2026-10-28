@@ -1,48 +1,255 @@
 body{
-    background-color: rgb(241, 237, 237);
+    background-color: #71c6fb;
     font-family: sans-serif;
 }
 
 header{
-    background-color: rgb(5, 5, 85);
+    background: linear-gradient(to bottom, lightblue, rgb(231, 186, 103));;
+    border-radius: 40px;
+    padding: 20px;
 }
 
 header h1{
     color: white;
+    text-align: center;
+    font-size: 3rem;
 }
 
 header p{
-    color: grey;
+    color: #ffffff;
+    text-align: center;
 }
 
 header a{
-    color: rgb(37, 161, 161);
+    color: rgb(13, 255, 255);
+    font-size: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: center; 
+    gap: 60px;               
+    padding: 15px 0;    
 }
 
+nav a{
+    text-decoration: underline; 
+    color: rgb(35, 255, 255);
+    font-size: 1rem;
+    font-weight: bold; 
+    transition: color 0.3s ease-in-out; 
+
+}
+
+nav a:hover{
+    color: white;
+}
+
+
 h2{
-    color: rgb(37, 161, 161);
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#home{
+    background: linear-gradient(to bottom, lightblue, rgb(231, 186, 103));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 #home p{
-    color: grey;
+    color: white;
+    text-align: center;
+
+}
+
+#home a{
+    font-size:1rem;
+    font-weight: bold;
+    color:rgb(0, 255, 255);
+    transition: color 0.3s ease-in-out; 
+}
+
+#home a:hover{
+    color: white;
+}
+
+:focus-visible{
+    outline: 2px solid rgb(13, 255, 255); 
+}
+
+header a:focus-visible{
+    outline: 2px solid yellow; 
+}
+
+#about{
+    background: linear-gradient(to bottom, lightblue, rgb(231, 186, 103));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#about figure{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    margin: 20px 0;
+}
+
+#about img{
+    border-radius: 20px; 
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+#about figcaption{
+    color: #ffffff;
 }
 
 #about p{
-    color: rgb(37, 161, 161);;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#about a{
+    font-size:1rem;
+    font-weight: bold;
+    color:rgb(0, 255, 255);
+    transition: color 0.3s ease-in-out; 
+}
+
+#about a:hover{
+    color: #ffffff;
 }
 
 #packages{
-    background-color: rgb(160, 234, 247);
+    background: linear-gradient(to bottom, lightblue, rgb(231, 186, 103));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-.Taal{
-    background-color: lightsalmon;
+#packages h2{
+    flex-basis: 100%;   
 }
 
-.Taal h3{
+#packages article{
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+#packages h3{
+    color: rgb(141, 98, 20);
+    font-size: 1.5rem;
+}
+
+#packages p{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#packages a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: rgb(141, 98, 20);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#packages a:hover{
+    background-color: rgb(13, 255, 255);
     color: rgb(141, 98, 20);
 }
 
-.Taal p{
-    color: grey;
+.sample-tour{
+    background: linear-gradient(to bottom, lightblue, rgb(231, 186, 103));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sample-tour h3{
+    color: #ffffff;
+    font-size: 2rem;
+}
+#centered{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+table {
+  width: 100%;
+  max-width: 600px;      
+  margin: 20px auto;    
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse; 
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+th, td {
+  padding: 12px 15px;  
+  text-align: left;      
+  border-bottom: 1px solid #ddd; 
+}
+
+thead th {
+  background-color: #f4f4f4; 
+  color: #333;
+  font-weight: 600;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9; 
+}
+
+table a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+table a:hover {
+  text-decoration: underline; 
+}
+
+
+.sample-tour table{
+    display: inline-block;
+}
+
+.sample-tour ul{
+    font-size: 2rem;
+    color:#ffffff
+}
+
+.sample-tour ol{
+    font-size: 2rem;
+    color:#ffffff
 }
